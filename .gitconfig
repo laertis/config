@@ -1,0 +1,10 @@
+[user]
+        email = laertisloutsis@gmail.com
+        name = Laertis Loutsis
+[core]
+        editor = vim
+        pager  = cat
+[alias]
+        lg = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%cd%Creset %Cblue%<(15,mtrunc)%an%Creset %<(70,trunc)%s %C(yellow)%d%Creset' --abbrev-commit --date=short
+[push]
+        autoSetupRemote = true
