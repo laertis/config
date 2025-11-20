@@ -1,5 +1,5 @@
 My MacOS Setup
-- [Hammersppon](https://www.hammerspoon.org) _HotKey Automation_
+- [Hammerspoon](https://www.hammerspoon.org) _HotKey Automation_
 - [iTerm2](https://iterm2.com/downloads.html) _Terminal Emulator_
 - [Oh-my-Zsh](https://ohmyz.sh) _Zsh Framework_
 - [Starship](https://starship.rs) _Cross Shell Prompt_
