@@ -105,11 +105,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # == CUSTOM CONFIGURATION BELOW ==
-alias cat="bat"
 
-fpath=(~/.my_zsh_functions $fpath);
-autoload -U ~/.my_zsh_functions/d8id
+alias date='date +%y%m%d%H%M%S'
+alias cat="bat"
 
 eval "$(starship init zsh)"
 
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
