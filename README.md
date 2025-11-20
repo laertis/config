@@ -1,9 +1,13 @@
-A bunch of configuration scripts under my home directory for MacOS
-
-- iTerm2
-- Hammersppon
-- Oh-my-Zsh
-- Starship
-- git
-- Github CLI
-- etc
+My MacOS Setup
+- [Hammersppon](https://www.hammerspoon.org) _HotKey Automation_
+- [iTerm2](https://iterm2.com/downloads.html) _Terminal Emulator_
+- [Oh-my-Zsh](https://ohmyz.sh) _Zsh Framework_
+- [Starship](https://starship.rs) _Cross Shell Prompt_
+- [git](https://git-scm.com) _for Version Control_
+- [Github CLI](https://cli.github.com)
+- [Velja](https://sindresorhus.com/velja) _Browser Picker_
+- [Yippy](https://github.com/mattDavo/Yippy) _Clipboard Manager_
+- [TextMate](https://macromates.com) _Text Editor_
+- [Beeper](https://www.beeper.com) _Chat Aggregator_
+- Globe <-> Control Swap
+- Tilda over Tab
