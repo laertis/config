@@ -1,6 +1,7 @@
 local function toggleApp(appName)
 
-	-- 
+	-- Used for apps with different process name than bundle name
+	-- eg iTerm vs iTerm2 process name
 	hs.application.enableSpotlightForNameSearches(true)
 	
     local app = hs.application.get(appName)
