@@ -1,3 +1,18 @@
+-- Special thanks to Indragie Karunaratne (https://www.indragie.com) the man behind Snap :
+-- > https://apps.apple.com/ch/app/snap/id418073146
+-- the app that inspired me to build this script.
+--
+-- This hammerspoon config assigns hotkeys to apps, similar to what you can do in Windows 10
+-- and onwards where WindowsKey+1 would launch, unminimize or hide the 1st pinned app in the
+-- windows taskbard, WindowsKey+2 the second and so on, with the exception that this script's
+-- functionality is not bound to the location of the app in the dock but it can be any app.
+--
+-- Initially developed in AppleScript but moved to Hammersppon since it requires to trap
+-- hotkeys before any app can capture the keystroke.
+-- Only tested against the apps configured in this scripts but in theory it can be extended
+-- to any app.
+--
+-- WIP: Fix behavior for multiple virtual desktops
 local function toggleApp(appName)
 
 	-- Used for apps with different process name than bundle name
